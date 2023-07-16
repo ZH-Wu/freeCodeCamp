@@ -1,0 +1,32 @@
+// Rothko painting
+
+Let the targeted elements have a blurring effect like mosaic.
+
+For example, 
+p {
+filter: blur(_px);
+}
+
+//margin-top issue
+
+如果遇到子層寫margin-top沒有出現與父層推擠出間距的話，可以有幾個做法: 
+
+1. 在父層加上overflow: hidden的語法  
+或
+2. 改成在父層用padding-top的語法
+或
+3. 在父層增加一個透明的border: 1px solid transparent 
+
+//gap
+
+"gap", a shorthand property for row-gap and column-gap, is commonly used for flex, grid and multi-column layout.
+It's applied to the container element, like the element with the property of display: flex.
+
+//object-fit
+
+<img>是放照片的容器，因此在<img>設定的寬高等同是畫框的寬高，裡面的圖片有自己的長寬比(aspect ratio)，我們可以透過object-fit: cover這個屬性，將圖片依照本身的比例去填滿畫框的大小，因此圖片就不會受限於畫框的比例而變形(distorted).
+
+//psuedo-element => ::after (Flexbox_Step 20)
+
+The ::after pseudo-element creates an element that is the last child of the selected element.
+(::after偽元素是在選定的父元素內創造最後一個子元素)

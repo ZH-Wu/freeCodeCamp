@@ -1,0 +1,16 @@
+// form
+
+<label> is inline element.
+
+The rem unit stands for root em, and is relative to the font size of the html element. 1 rem = 16px.
+
+"pattern" is one of the attributes used for <input> when the type attribute is "password".
+
+"minlength" means the password must be eight or more characters.
+
+[a-z0-5]{8,} means the length of the password has to be eight or more characters and it can be all lowercase letter or the combination of lowercase letter and number 0 to 5. 
+
+// Dropdown menu
+
+using <select> and <option> tags
+ 

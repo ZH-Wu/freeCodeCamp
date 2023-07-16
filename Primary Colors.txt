@@ -1,0 +1,29 @@
+// Primary Colors
+rgb三原色加起來會變成白色。
+
+// Secondary Colors
+r+g會變成黃色(yellow)
+g+b會變成青色(cyan)
+r+b會變成品紅(magenta)
+
+// Tertiary Colors
+rgb(255, 127, 0) => Orange = red + yellow;
+rgb(0, 255, 127) => Spring green = green + cyan;
+rgb(127, 0, 255) => Violet = magenta + blue;
+rgb(127, 255, 0) => Chartreuse green = green + yellow;
+rgb(0, 127, 255) => Azure = blue + cyan;
+rgb(255, 0, 127) => Rose(bright pink) = blue + magenta;
+
+// Color Wheel
+在色相盤上相對的兩色稱為互補色(complementary color)，將兩色融合在一起會變成「灰色」，但是把兩色並排看的話，就會產生強烈的視覺反差。
+
+//HSL (Hue, Saturation Lightness)
+Hue: the specific colors
+Saturation: 0% = grey, 100% = pure color
+Lightness: 0% = black, 100% = white
+
+//box-shadow
+box-shadow: offsetX offsetY "blurRadius" "spreadRadius" color;
+
+The higher the value of "blurRadius", the greater the blurring effect is.
+"spreadRadius" is to expand the shadow out further.
